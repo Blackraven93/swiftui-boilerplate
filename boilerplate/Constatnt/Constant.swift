@@ -10,7 +10,11 @@ import Foundation
 struct Const {
     struct Alert {
         static let showButtonText = "Show alert"
-        static let message = "Alert page"
-        static let closeButtonText = "Close alert"
+        static let message = "Alert message"
+        static let closeButtonText = "Close"
+    }
+    
+    struct ActionSheet {
+        static let actionSheetText = "This is ActionSheet"
     }
 }

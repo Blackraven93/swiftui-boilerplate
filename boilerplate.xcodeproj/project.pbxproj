@@ -16,6 +16,9 @@
 		973B3ECA283BCE9900F98571 /* boilerplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B3EC9283BCE9900F98571 /* boilerplateUITestsLaunchTests.swift */; };
 		973B3ED8283BCF0B00F98571 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B3ED7283BCF0B00F98571 /* Alert.swift */; };
 		973B3EDB283BD0CD00F98571 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B3EDA283BD0CD00F98571 /* Constant.swift */; };
+		973B3EDE283BDAE300F98571 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B3EDD283BDAE300F98571 /* ActionSheet.swift */; };
+		973B3EE1283BDCE900F98571 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B3EE0283BDCE900F98571 /* SwiftUIView.swift */; };
+		973B3EE4283BDEED00F98571 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B3EE3283BDEED00F98571 /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		973B3EC9283BCE9900F98571 /* boilerplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boilerplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		973B3ED7283BCF0B00F98571 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		973B3EDA283BD0CD00F98571 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		973B3EDD283BDAE300F98571 /* ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
+		973B3EE0283BDCE900F98571 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		973B3EE3283BDEED00F98571 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 		973B3EAB283BCE9700F98571 /* boilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				973B3EE2283BDEE500F98571 /* Label */,
+				973B3EDF283BDCD900F98571 /* Text */,
+				973B3EDC283BDACA00F98571 /* ActionSheet */,
 				973B3ED9283BD0B200F98571 /* Constatnt */,
 				973B3ED6283BCF0400F98571 /* Alert */,
 				973B3EAC283BCE9700F98571 /* boilerplateApp.swift */,
@@ -147,6 +156,30 @@
 				973B3EDA283BD0CD00F98571 /* Constant.swift */,
 			);
 			path = Constatnt;
+			sourceTree = "<group>";
+		};
+		973B3EDC283BDACA00F98571 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				973B3EDD283BDAE300F98571 /* ActionSheet.swift */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		973B3EDF283BDCD900F98571 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				973B3EE0283BDCE900F98571 /* SwiftUIView.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		973B3EE2283BDEE500F98571 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				973B3EE3283BDEED00F98571 /* Label.swift */,
+			);
+			path = Label;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +314,10 @@
 			files = (
 				973B3EAF283BCE9700F98571 /* ContentView.swift in Sources */,
 				973B3ED8283BCF0B00F98571 /* Alert.swift in Sources */,
+				973B3EE1283BDCE900F98571 /* SwiftUIView.swift in Sources */,
 				973B3EAD283BCE9700F98571 /* boilerplateApp.swift in Sources */,
+				973B3EDE283BDAE300F98571 /* ActionSheet.swift in Sources */,
+				973B3EE4283BDEED00F98571 /* Label.swift in Sources */,
 				973B3EDB283BD0CD00F98571 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
