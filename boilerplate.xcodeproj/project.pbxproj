@@ -14,6 +14,8 @@
 		973B3EBE283BCE9900F98571 /* boilerplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B3EBD283BCE9900F98571 /* boilerplateTests.swift */; };
 		973B3EC8283BCE9900F98571 /* boilerplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B3EC7283BCE9900F98571 /* boilerplateUITests.swift */; };
 		973B3ECA283BCE9900F98571 /* boilerplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B3EC9283BCE9900F98571 /* boilerplateUITestsLaunchTests.swift */; };
+		973B3ED8283BCF0B00F98571 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B3ED7283BCF0B00F98571 /* Alert.swift */; };
+		973B3EDB283BD0CD00F98571 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B3EDA283BD0CD00F98571 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		973B3EC3283BCE9900F98571 /* boilerplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boilerplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		973B3EC7283BCE9900F98571 /* boilerplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boilerplateUITests.swift; sourceTree = "<group>"; };
 		973B3EC9283BCE9900F98571 /* boilerplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boilerplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		973B3ED7283BCF0B00F98571 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		973B3EDA283BD0CD00F98571 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		973B3EAB283BCE9700F98571 /* boilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				973B3ED9283BD0B200F98571 /* Constatnt */,
+				973B3ED6283BCF0400F98571 /* Alert */,
 				973B3EAC283BCE9700F98571 /* boilerplateApp.swift */,
 				973B3EAE283BCE9700F98571 /* ContentView.swift */,
 				973B3EB0283BCE9900F98571 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				973B3EC9283BCE9900F98571 /* boilerplateUITestsLaunchTests.swift */,
 			);
 			path = boilerplateUITests;
+			sourceTree = "<group>";
+		};
+		973B3ED6283BCF0400F98571 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				973B3ED7283BCF0B00F98571 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		973B3ED9283BD0B200F98571 /* Constatnt */ = {
+			isa = PBXGroup;
+			children = (
+				973B3EDA283BD0CD00F98571 /* Constant.swift */,
+			);
+			path = Constatnt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				973B3EAF283BCE9700F98571 /* ContentView.swift in Sources */,
+				973B3ED8283BCF0B00F98571 /* Alert.swift in Sources */,
 				973B3EAD283BCE9700F98571 /* boilerplateApp.swift in Sources */,
+				973B3EDB283BD0CD00F98571 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
